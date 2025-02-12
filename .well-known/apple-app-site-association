@@ -1,0 +1,29 @@
+{
+    "webcredentials": {
+        "apps": [
+        "XJ54NM66NP.com.yclients.yplaces"
+        ]
+    },
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "XJ54NM66NP.com.yclients.yplaces",
+                "components": [
+                    {
+                      "/": "/c/*",
+                      "comment": "Matches /c/ followed by one segment"
+                    },
+                    {
+                      "/": "/c/*/*",
+                      "comment": "Matches /c/ followed by two segments"
+                    },
+                    {
+                      "/": "/pay/*",
+                      "comment": "Matches /pay/ followed by one or more segments"
+                    }
+                ]
+            }
+        ]
+    }
+}
